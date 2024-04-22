@@ -1,0 +1,24 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@headlessui/vue": "^1.7.20",
+    "@pinia/nuxt": "^0.5.1",
+    "i": "^0.3.7",
+    "nuxt": "^3.11.2",
+    "vue": "^3.4.21",
+    "vue-boring-avatars": "^1.4.0",
+    "vue-router": "^4.3.0"
+  },
+  "devDependencies": {
+    "@samk-dev/nuxt-vcalendar": "^1.0.3"
+  }
+}
